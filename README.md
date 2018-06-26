@@ -14,7 +14,7 @@ These are 2 of the most common image feature requirements across the Web:
 Implementation
 ---
 
-This service use NodeJS, Phantom for the screenshots, and Firebase for image storage.
+This service uses NodeJS, Phantom for the screenshots, and Firebase for image storage.
 
 Usage
 ---

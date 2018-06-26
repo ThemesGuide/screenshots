@@ -1,0 +1,16 @@
+{
+  "name": "screenshots",
+  "version": "0.2.0",
+  "author": "Tophat",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "phantom": "^6.0.0",
+    "phantomjs": "^2.1.7"
+  },
+  "engines": {
+    "node": ">=8.x",
+    "npm": ">=4.x"
+  }
+}
