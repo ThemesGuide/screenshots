@@ -12,12 +12,12 @@ app.set('view engine', 'ejs');
 app.use(expressLayouts);
 
 app.get('/', function(req, res){
-    res.render('index');
+    res.render('index',{});
 });
 
 /* keep this as the last route */
 app.get('/*', function(req, res){
-    res.render('404');
+    res.render('404',{});
 });
 
 /* start app */
