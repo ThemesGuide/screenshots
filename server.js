@@ -8,6 +8,7 @@ var port = process.env.PORT || 4000,
 
 app.engine('ejs', require('ejs').__express);
 app.use("/", express.static(__dirname + '/static'));
+
 app.set('view engine', 'ejs');
 app.use(expressLayouts);
 
@@ -84,12 +85,12 @@ app.get('/ss', function(req,res){
 });
 
 app.get('/', function(req, res){
-    res.render('index',{});
+    res.render('index',{body:'what?'});
 });
 
 
 /* keep this as the last route */
-app.get('*', function(req, res){
+app.get('/*', function(req, res){
     res.render('404',{});
 });
 
