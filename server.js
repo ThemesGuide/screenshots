@@ -85,9 +85,8 @@ app.get('/ss', function(req,res){
 });
 
 app.get('/', function(req, res){
-    res.render('index',{body:'what?'});
+    res.render('index',{});
 });
-
 
 /* keep this as the last route */
 app.get('/*', function(req, res){
