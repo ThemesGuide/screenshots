@@ -125,6 +125,7 @@ app.get('/dup', function(req,res){
         
     }
     else {
+        res.render('500', {error:'No `url` parameter was passed.'});
     }
     
 });
