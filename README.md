@@ -23,6 +23,6 @@ There are 2 endpoints.
 
 1) /ss (Take a screenshot)
 
-2) /img (Duplicate an image from url)
+2) /dup (Duplicate an image from url)
 
 

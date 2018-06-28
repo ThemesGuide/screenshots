@@ -3,14 +3,12 @@ var port = process.env.PORT || 4000,
     app = express(),
     expressLayouts = require('express-ejs-layouts'),
     request = require('request'),
-    fs = require('fs'),
-    bodyParser = require('body-parser'),
+    
     firebaseAppUrl = "https://spyshot-54dea.firebaseapp.com",
     firebaseAppSaveImageEndpoint = "/save";
 
 app.engine('ejs', require('ejs').__express);
 app.use("/", express.static(__dirname + '/static'));
-
 app.set('view engine', 'ejs');
 app.use(expressLayouts);
 
