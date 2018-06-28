@@ -96,5 +96,5 @@ app.get('/*', function(req, res){
 /* start app */
 if (!module.parent) {
   app.listen(port);
-  console.log('Express app started on port '+port+' process:' + process.id);
+  console.log('Express app started on port '+port+' process:' + process.pid);
 }
